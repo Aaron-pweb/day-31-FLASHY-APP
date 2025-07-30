@@ -8,7 +8,8 @@ The app helps users learn **foreign language vocabulary** (e.g., French to Engli
 
 ## 📸 Preview
 
-*(Add screenshots here if you have any!)*
+![Flashy App Screenshot](flashy.png)
+
 
 ---
 
