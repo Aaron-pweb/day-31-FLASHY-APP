@@ -58,7 +58,7 @@ To use this app on your local machine, first clone the repository using `git clo
 
 ## 📅 Part of
 
-> 💯 **100 Days of Code – The Complete Python Pro Bootcamp for 2023**  
+> 💯 **100 Days of Code – The Complete Python Pro Bootcamp for 2025**  
 > 📆 **Day 31** – Flashy Flash Card App
 
 ---
