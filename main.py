@@ -6,18 +6,19 @@ import random
 window = tkinter.Tk()
 
 #constances
-IMAGE1 = tkinter.PhotoImage(file='images/wrong.png')
-IMAGE2 = tkinter.PhotoImage(file="images/right.png")
-IMAGE3 = tkinter.PhotoImage(file='images/card_back.png')
-IMAGE4 = tkinter.PhotoImage(file="images/card_front.png")
+
+IMAGE1 = tkinter.PhotoImage(file='wrong.png')
+IMAGE2 = tkinter.PhotoImage(file="right.png")
+IMAGE3 = tkinter.PhotoImage(file='card_back.png')
+IMAGE4 = tkinter.PhotoImage(file="card_front.png")
 BACKGROUND_COLOR = "#B1DDC6"
 #READING DATA
 current_dict = {}
 to_learn = {}
 try:
-    data = pandas.read_csv('data/words_to_learn.csv')
+    data = pandas.read_csv('words_to_learn.csv')
 except FileNotFoundError:
-    file = pandas.read_csv('data/french_words.csv')
+    file = pandas.read_csv('french_words.csv')
     to_learn = file.to_dict(orient="records")
 else:
     to_learn = data.to_dict(orient="records")
